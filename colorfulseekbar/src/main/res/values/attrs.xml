@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorfulProgressbar">
+        <attr name="style2" format="string|reference"/>
+        <attr name="animation2" format="boolean"/>
+        <attr name="max2" format="integer|reference"/>
+        <attr name="progress2" format="integer|reference"/>
+        <attr name="secondProgress2" format="integer|reference"/>
+        <attr name="backgroundColor2" format="color|reference"/>
+        <attr name="progressColor1_2" format="color|reference"/>
+        <attr name="progressColor2_2" format="color|reference"/>
+        </declare-styleable>
+    <declare-styleable name="ColorfulSeekbar">
+        <attr name="style" format="string|reference"/>
+        <attr name="thumbRadius" format="dimension|reference"/>
+        <attr name="progressBarHeight" format="dimension|reference"/>
+        <attr name="animation" format="boolean"/>
+        <attr name="max" format="integer|reference"/>
+        <attr name="progress" format="integer|reference"/>
+        <attr name="secondProgress" format="integer|reference"/>
+        <attr name="thumbColor" format="color|reference"/>
+        <attr name="thumbWrapColor" format="color|reference"/>
+        <attr name="backgroundColor" format="color|reference"/>
+        <attr name="progressColor1" format="color|reference"/>
+        <attr name="progressColor2" format="color|reference"/>
+    </declare-styleable>
+</resources>

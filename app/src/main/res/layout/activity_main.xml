@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.capton.colorfulseekbardemo.MainActivity">
+
+ <!-- <com.capton.colorfulseekbar.ColorfulProgressbar
+      android:id="@+id/progressbar"
+      android:layout_below="@+id/seek2"
+      app:progress2="60"
+      android:layout_width="match_parent"
+      android:layout_height="20dp">
+
+  </com.capton.colorfulseekbar.ColorfulProgressbar>-->
+    <!--
+      <SeekBar
+          android:id="@+id/seek"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />-->
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+     <com.capton.colorfulseekbar.ColorfulSeekbar
+         android:layout_below="@+id/videoview"
+         android:id="@+id/myseekbar"
+         app:animation="false"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         >
+     </com.capton.colorfulseekbar.ColorfulSeekbar>
+    <com.capton.colorfulseekbar.ColorfulSeekbar
+        android:id="@+id/myseekbar2"
+        android:layout_below="@+id/myseekbar"
+        android:layout_marginTop="16dp"
+        app:style="@string/style_normal"
+        app:thumbRadius="16dp"
+        app:progressColor1="@color/green"
+        app:thumbColor="@color/green"
+        app:secondProgress="30"
+        app:animation="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </com.capton.colorfulseekbar.ColorfulSeekbar>
+</RelativeLayout>
